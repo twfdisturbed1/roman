@@ -92,4 +92,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("C".to_arabic, 100)
     end
 
+    def test_assert_CD_is_400()
+		assert_equal("CD".to_arabic, 400)
+    end
+
 end

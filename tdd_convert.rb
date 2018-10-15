@@ -46,12 +46,12 @@ class TestYourFunctions < Minitest::Test
     	assert_equal(133.to_roman, "CXXXIII")
     end
     def test_assert_2018_is_MMXVIII()
-		assert_equal("MMXVIII", 2018.to_roman)
+		assert_equal(2018.to_roman, "MMXVIII")
     end
     def test_assert_8_is_VIII()
-    	assert_equal("VIII", 8.to_roman)
+    	assert_equal(8.to_roman, "VIII")
     end
 	def test_assert_1995_is_MCMXCV()
-		assert_equal("MCMXCV", 1995.to_roman)
+		assert_equal(1995.to_roman, "MCMXCV")
     end
 end

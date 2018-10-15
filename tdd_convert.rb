@@ -39,7 +39,7 @@ class TestYourFunctions < Minitest::Test
     end
 
     def test_assert_90_is_XC()
-    	assert_equal(90.to_roman, "")
+    	assert_equal(90.to_roman, "XC")
     end
 
     def test_assert_133_is_CXXXIII()

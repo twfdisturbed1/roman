@@ -72,4 +72,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("IX".to_arabic, 9)
     end
 
+    def test_assert_X_is_10()
+		assert_equal("X".to_arabic, 10)
+    end
+
 end

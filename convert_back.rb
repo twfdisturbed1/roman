@@ -13,7 +13,7 @@ class String
 
   def roman_mapping
     {
-    #   1000 => "M",
+      1000 => "M",
       900 => "CM",
       500 => "D",
       400 => "CD",

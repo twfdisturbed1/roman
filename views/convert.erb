@@ -1,0 +1,16 @@
+<form method="post" action="convert">
+		<p style="font-size:28px; font-weight:bold;">Please enter your number.</p>
+		<div class="convert">
+		<input class="buttonStyle" type="number" name="convert" id="convert" placeholder="Enter your name" required>
+		</div>
+		<input type="submit" class="buttonStyle" value="Submit" name ="submit">
+
+<% 	convert = convert %>
+<% "#{convert.to_i.to_roman}" %>
+<hr>
+<h1><%= " #{convert}  #{convert.to_i.to_roman}" %></h1>
+</form>
+
+
+
+

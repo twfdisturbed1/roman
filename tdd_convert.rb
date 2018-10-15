@@ -54,4 +54,10 @@ class TestYourFunctions < Minitest::Test
 	def test_assert_1995_is_MCMXCV()
 		assert_equal(1995.to_roman, "MCMXCV")
     end
+
+    def test_assert_I_is_1()
+		assert_equal("I".to_arbic, 1)
+    end
+
+
 end

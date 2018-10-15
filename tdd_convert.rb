@@ -76,4 +76,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("X".to_arabic, 10)
     end
 
+    def test_assert_XL_is_40()
+		assert_equal("XL".to_arabic, 40)
+    end
+
 end

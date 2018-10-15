@@ -11,7 +11,7 @@ class Integer
 	  result
 	end
    
-	private
+	
    
 	def roman_mapping
 	  {

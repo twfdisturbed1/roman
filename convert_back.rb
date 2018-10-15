@@ -9,7 +9,7 @@ class String
 			end
 		end
 	end
-  private
+  
 
   def roman_mapping
     {

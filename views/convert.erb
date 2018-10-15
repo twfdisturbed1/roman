@@ -3,7 +3,7 @@
 		<div class="convert">
 		<input class="buttonStyle" type="number"   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
     type = "number"
-    maxlength = "4" name="convert" id="convert" placeholder="Enter your name" required>
+    maxlength = "4" name="convert" id="convert" placeholder="Enter your number" required>
 		</div>
 		<input type="submit" class="buttonStyle" value="Submit" name ="submit">
 
@@ -12,6 +12,4 @@
 <hr>
 <h1><%= " #{convert}  #{convert.to_i.to_roman}" %></h1>
 </form>
-
-
 

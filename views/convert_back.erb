@@ -1,0 +1,13 @@
+<form method="post" action="convert_back">
+		<p style="font-size:28px; font-weight:bold;">Please enter your Roman Numeral.</p>
+		<div class="convert_back">
+		<input class="buttonStyle" type="text"
+     name="convert_back" id="convert_back" placeholder="Enter your name" required>
+		</div>
+		<input type="submit" class="buttonStyle" value="Submit" name ="submit">
+
+<% 	convert_back = convert_back %>
+<% "#{convert_back.to_s.to_arabic}" %>
+<hr>
+<h1><%= "#{convert_back}  #{convert_back.to_s.to_arabic}" %></h1>
+</form>

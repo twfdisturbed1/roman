@@ -60,5 +60,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("I".to_arabic, 1)
     end
 
+    def test_assert_V_is_5()
+		assert_equal("V".to_arabic, 5)
+    end
 
 end

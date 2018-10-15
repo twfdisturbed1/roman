@@ -1,5 +1,6 @@
 require "minitest/autorun"
 require_relative "convert.rb"
+require_relative "convert_back.rb"
 
 class TestYourFunctions < Minitest::Test
 
@@ -56,7 +57,7 @@ class TestYourFunctions < Minitest::Test
     end
 
     def test_assert_I_is_1()
-		assert_equal("I".to_arbic, 1)
+		assert_equal("I".to_arabic, 1)
     end
 
 

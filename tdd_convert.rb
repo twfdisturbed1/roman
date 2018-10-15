@@ -84,5 +84,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("L".to_arabic, 50)
     end
 
+    def test_assert_XC_is_90()
+		assert_equal("XC".to_arabic, 90)
+    end
 
 end

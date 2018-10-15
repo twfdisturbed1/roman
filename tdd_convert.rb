@@ -68,4 +68,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("V".to_arabic, 5)
     end
 
+    def test_assert_IX_is_9()
+		assert_equal("IX".to_arabic, 9)
+    end
+
 end

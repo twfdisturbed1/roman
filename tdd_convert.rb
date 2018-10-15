@@ -104,4 +104,8 @@ class TestYourFunctions < Minitest::Test
 		assert_equal("CM".to_arabic, 900)
     end
 
+    def test_assert_M_is_1000()
+		assert_equal("M".to_arabic, 1000)
+    end
+
 end

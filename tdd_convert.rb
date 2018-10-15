@@ -6,7 +6,9 @@ class TestYourFunctions < Minitest::Test
     def test_assert_that_1_equals_1
         assert_equal(1, 1)
     end
-    
+    def test_assert_1_is_I()
+    	assert_equal(1.to_roman, "")
+    end
     def test_assert_133_is_CXXXIII()
     	assert_equal(133.to_roman, "CXXXIII")
     end

@@ -13,7 +13,11 @@ class TestYourFunctions < Minitest::Test
     def test_assert_4_is_IV()
     	assert_equal(4.to_roman, "IV")
     end
-    
+
+    def test_assert_10_is_X()
+    	assert_equal(10.to_roman, "")
+    end
+
     def test_assert_133_is_CXXXIII()
     	assert_equal(133.to_roman, "CXXXIII")
     end
